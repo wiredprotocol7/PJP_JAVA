@@ -5,7 +5,7 @@ public class Assignment_six
 	
 		if (args[0].equals("Male"))
 		{
-			if ((Integer.parseInt(args[1])>=1) && (Integer.parseInt(args[1])<=58))
+			if ((Integer.parseInt(args[1])>=1) & (Integer.parseInt(args[1])<=58))
 			{
 				System.out.print("8.4%");
 			}
