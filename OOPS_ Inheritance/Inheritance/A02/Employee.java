@@ -24,7 +24,7 @@ public class Employee extends Person
 			return salary;
 		 }
 
-		public int () getyear ()
+		public int getyear ()
     {
 			return year;
 		}
