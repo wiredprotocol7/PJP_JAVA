@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Assignment_seventeen
+public class A17
 {
    public static void main (String args[]) throws NumberFormatException, IOException
    {   
