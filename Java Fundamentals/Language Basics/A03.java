@@ -1,4 +1,4 @@
-public class Assignment_three
+public class A03
 {
 	public static void main(String[] args) /*Reads arguments from command line and store them into a string array*/
 	{
