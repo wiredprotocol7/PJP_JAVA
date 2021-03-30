@@ -12,13 +12,19 @@ public class Employee extends Person
 		this.NIS=NIS;
 		
 	}
+	
+	public String getname()
+	{
+	   return name;
+	}
+
   
   		public double getsalary() 
       {
 			return salary;
 		 }
 
-		public int () getyear 
+		public int () getyear ()
     {
 			return year;
 		}
