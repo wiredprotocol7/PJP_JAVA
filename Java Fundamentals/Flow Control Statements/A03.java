@@ -1,4 +1,4 @@
-public class Assignment_three
+public class A03
 {
 	public static void main(String[] args) 
 	{
