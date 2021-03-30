@@ -10,6 +10,17 @@ class Author
 		this.gender=gender;
 	}
 	
+	public String getName() {
+		return name;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public char getGender() {
+		return gender;
+	}
 	
 	
 }
@@ -27,6 +38,32 @@ class Book
 		this.author=author;
 		this.Price=price;
 		this.qtyInStock=qtyInStock;
+	}
+	
+		public String getName() {
+		return name;
+	}
+
+	public Author getAuthor() {
+		return author;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+	
+	public int getQtyInStock() {
+		return qtyInStock;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	
+
+
+	public void setQtyInStock(int qtyInStock) {
+		this.qtyInStock = qtyInStock;
 	}
 }
 public class A01
