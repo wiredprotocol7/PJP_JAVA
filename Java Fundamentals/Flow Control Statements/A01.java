@@ -1,5 +1,5 @@
 import java.io.*;
-public class Assignment_one
+public class A01
 {
 	public static void main(String args[])
 	{
