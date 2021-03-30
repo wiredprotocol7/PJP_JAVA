@@ -18,19 +18,19 @@ public class Employee extends Person
 	   return name;
 	}
 
-  
-  		public double getsalary() 
-      {
-			return salary;
-		 }
 
-		public int getyear ()
-    {
-			return year;
-		}
+	public double getsalary() 
+	 {
+		return salary;
+	 }
 
-		public String getNIS()
-    {
-			return NIS;
+	public int getyear ()
+	 {
+		return year;
+	 }
+
+	public String getNIS()
+	{
+		return NIS;
 		}
 }
