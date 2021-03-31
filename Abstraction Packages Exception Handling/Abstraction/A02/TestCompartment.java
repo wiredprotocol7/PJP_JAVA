@@ -49,7 +49,7 @@ class Luggage extends Compartment {
 }
 
 
-public class A02 {
+public class TestCompartment {
 
 public static void main(String[] args) throws IOException 
 {
