@@ -13,14 +13,32 @@ public class A08 {
 		BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
 		String str=br.readLine();
 		/*String[] array = str.split(",");*/
-		String ans="";
 		
-		for (int i=0; i<str.length();i++)
+		String ans;
+		if(str.charAt(0)=='*') 
 		{
-			if( str.charAt(i)!='*')
+			 ans="";
+		}
+		else
+		{
+		    ans=Character.toString(str.charAt(0));
+		}
+		for (int i=1; i<str.length()-1;i++)
+		{
+			if(( str.charAt(i)!='*')&( str.charAt(i-1)!='*')&( str.charAt(i+1)!='*'))
 			{
 				ans+=(str.charAt(i));
 			}
+		
+		}
+		
+		if(str.charAt(str.length()-1)=='*') 
+		{
+			 ans+="";
+		}
+		else 
+		{
+		    ans+=Character.toString(str.charAt(0));
 		}
 		
 		System.out.print(ans);
