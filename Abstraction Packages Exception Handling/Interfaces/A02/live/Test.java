@@ -7,13 +7,13 @@ import music.wind.Saxophone;
 public class Test {
 
 	public static void main(String[] args) {
-        Veena veena = new Veena();
-        Saxophone saxophone = new Saxophone();
-        veena.play();
-        saxophone.play();
+        Veena ve = new Veena();
+        Saxophone sa = new Saxophone();
+        ve.play();
+        sa.play();
 
-        Playable veenaObj = new Veena();
-        Playable saxophoneObj = new Saxophone();
-        veena.play();
-        saxophoneObj.play();
+        Playable v = new Veena();
+        Playable s= new Saxophone();
+        v.play();
+        s.play();
 	}
