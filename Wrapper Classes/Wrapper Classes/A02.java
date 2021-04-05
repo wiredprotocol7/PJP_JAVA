@@ -1,4 +1,4 @@
-public class Test {
+public class A02 {
 
 	public static void main(String[] args) {
 		int num = Integer.parseInt(args[0]);
