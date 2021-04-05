@@ -19,8 +19,10 @@ class employee implements Cloneable
 	public employee clone() {
 		try {
 			return (employee) super.clone();
-		} catch (CloneNotSupportedException e) {
-			System.out.println("Cloning Not Allowed");
+		} 
+		catch (CloneNotSupportedException e) 
+		{
+			System.out.println("Cloning Error");
 			return this;
 		}		
 	}
