@@ -1,20 +1,8 @@
-package mypack;
+
 
 import static org.junit.Assert.*;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-
-import java.util.ArrayList;
-
-import static org.junit.Assert.*;
-
-import org.junit.Test;
 
 public class Demo2Test {
 	
