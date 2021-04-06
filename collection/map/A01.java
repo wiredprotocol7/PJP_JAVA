@@ -51,7 +51,7 @@ class CountryMap {
 		{
 			list.add(entry.getKey());
 		}
-		}
+		
 
 		return list;
 	}
