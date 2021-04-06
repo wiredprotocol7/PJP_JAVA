@@ -59,7 +59,7 @@ class CountryMap {
 	}
 }
 
-public class A01 {
+public class A06 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
