@@ -5,7 +5,7 @@ public class A02 {
     public static void main(String[] args) throws SQLException {
         
         BufferReader br= new BufferReader(new InputStreamReader(System.in));
-        Connection connectio = null;
+        Connection connection = null;
         Class.forName("oracle.jdbc.driver.OracleDriver");
         connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "admin");
         PreparedStatement pstmt = null;
