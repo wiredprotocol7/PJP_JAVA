@@ -1,7 +1,7 @@
 import java.sql.*;
 
 
-public class testconnect {
+public class A01 {
 
     public static void main(String[] args) throws SQLException {
         Connection c = null;
