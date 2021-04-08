@@ -3,13 +3,17 @@ INSERT INTO my_employee (
     first_name,
     last_name,
     department_id, salary
-) VALUES (
+)
+values 
+(
     100,'Steven', 'King', 90, 24000
 ),
-values(
+values
+(
 101, 'Neena', 'Kochar', 90, 17000
 ),
-values(
+values
+(
 102, 'Lex De', 'Haan', 90, 17000
 ),
 values(
@@ -19,6 +23,6 @@ values(
 112, 'Jose Manuel', 'Urman', 100, 7800
 ),
 values(
-204, 'Hermann' , 'Baer', 70, 1000
+204, 'Hermann' , 'Baer', 70, 10000
 );
 
