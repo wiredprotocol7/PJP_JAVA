@@ -11,7 +11,7 @@ public class A03 {
         connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "admin");
         PreparedStatement pstmt = null;
         System.out.print("Enter the rollno: ");
-        String rollstr = Integer.parseInt(br.readLine());
+        String rollstr = br.readLine();
         int rollno = Integer.parseInt(rollstr);
         sql = "INSERT INTO student_log SELECT * FROM student WHERE rollno = ?";
         pstmt = connection.prepareStatement(sql);
