@@ -1,1 +1,0 @@
-SELECT employee_id AS Emp#, job_id as JOB, last_name as Employee, hire_date as HIRE_DATE FROM employees;  
