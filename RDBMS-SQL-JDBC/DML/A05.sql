@@ -9,3 +9,4 @@ INSERT INTO my_employee (
     'Marvis',
     40
 );
+select * from my_employee;
