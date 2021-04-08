@@ -16,7 +16,7 @@ public class A04 {
         System.out.print("Enter the new fees.")
         double fees = Double.parseDouble(br.readLine());
         sql = "UPDATE student SET fees = ? WHERE rollno = ?";
-        pstmt = conn.prepareStatement(sql);
+        pstmt = connection.prepareStatement(sql);
         pstmt.setDouble(1, fees);
         pstmt.setInt(2, rollno);
         System.out.println("Fees of student having rollno = " + rollno + " updated successfully");
