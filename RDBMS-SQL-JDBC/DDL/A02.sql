@@ -1,31 +1,10 @@
-INSERT INTO dept VALUES 
-(
-    10,
-    
-    'Accounts'
-);
+insert into dept select department_id, department_name from departments;
 
-INSERT INTO dept VALUES 
-(
-    20,
-    'TT'
-);
+insert into dept values (10, 'Accounts');
+insert into dept values (null, 'TT');
 
-INSERT INTO dept VALUES
-(
-    1,
-    'Accounts'
-);
+update dept set dept_id = 20
+where dept_name = 'TT';
 
-UPDATE dept
-SET
-    dept_id = 30
-WHERE
-    dept_id = 1;
-
-INSERT INTO dept
-    SELECT
-        department_id,
-        department_name
-    FROM
-        departments;
+update dept set dept_id = 30
+where dept_name = 'Accounts';
