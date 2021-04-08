@@ -10,8 +10,16 @@ CREATE TABLE emp (
 );
 
 INSERT INTO emp VALUES (
-    103,
-    "Ramkrinsa',
-    'SUNDAR',
-    20
+     101,"Sam",'Sundar',10
+
+);
+    
+INSERT INTO emp VALUES (
+    101,'Ram','Krishna',20
+);
+ INSERT INTO emp VALUES (
+    102,'Gopi',null,40
+);
+ INSERT INTO emp VALUES (
+    103,null,'ram',20
 );
