@@ -1,11 +1,2 @@
-INSERT INTO my_employee
-    SELECT
-        employee_id,
-        first_name,
-        last_name,
-        department_id,
-        NULL
-    FROM
-        employees
-    WHERE
-        employee_id = 202;
+insert into my_employee values(202, 'Pat', 'Fay', 20, null);
+select * from my_employee;
