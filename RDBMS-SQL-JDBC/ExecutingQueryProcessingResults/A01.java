@@ -2,7 +2,7 @@ import java.sql.*;
 
 public class A01 {
 
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) throws SQLException, ClassNotFoundException {
         Connection c = null;
         Statement string = null;
         ResultSet ans;
