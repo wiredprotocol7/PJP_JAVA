@@ -18,7 +18,7 @@ public class A02 {
         while (ans.next()) {
             System.out.println(  ans.getString("ename") + ans.getString("job")+ ans.getDouble("sal")+ ans.getDouble("comm")));
         }
-        if (string != null) stmt.close();
+        if (string != null) string.close();
         if (ans != null) conn.close();
 
     }
