@@ -8,7 +8,7 @@ public class A01 {
 
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            String url = "jdbc:oracle:thin:@localhost:1521:XE"//"jdbc:mysql://localhost:3306/mysql";
+            String url = "jdbc:oracle:thin:@localhost:1521:XE"; //"jdbc:mysql://localhost:3306/mysql";
             c = DriverManager.getConnection(url, "system", "admin");
             System.out.println("Connection Established successfully");
         } catch (Exception e) {
